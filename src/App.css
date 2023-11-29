@@ -1,0 +1,46 @@
+.test {
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+  border-radius: 40px;
+  padding: 50px;
+  box-shadow: 15 15 15px rgba(0, 0, 0, 0.1);
+  background-color: #e0a716;
+}
+
+.quotation {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #132503;
+}
+
+.author {
+  font-size: 26px;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: rgb(18, 110, 98);
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn button {
+  padding: 20px 20px;
+  border: none;
+  background-color: #98ee82;
+  color: #203a07;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.testimonials-nav button:hover {
+  cursor: pointer;
+}
+
+.testimonials-nav button:active {
+  transform: scale(2);
+}
